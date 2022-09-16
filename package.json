@@ -29,6 +29,6 @@
     "vue-tsc": "^0.40.4"
   },
   "lint-staged": {
-    "*.{js,jsx,vue,ts,tsx}": "eslint ./src/**/*.{js,jsx,vue,ts,tsx} --fix"
+    "*.{js,jsx,vue,ts,tsx}": "npm run lint"
   }
 }
