@@ -29,8 +29,6 @@
     "vue-tsc": "^0.40.4"
   },
   "lint-staged": {
-    "*.{js,jsx,vue,ts,tsx}": [
-      "yarn lint"
-    ]
+    "*.{js,jsx,vue,ts,tsx}": "yarn lint"
   }
 }
