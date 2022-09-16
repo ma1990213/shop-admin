@@ -9,14 +9,18 @@ module.exports = {
   ],
   overrides: [
   ],
+  parser: 'vue-eslint-parser',
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
-    project: 'tsconfig.json'
+    parser: '@typescript-eslint/parser',
+    project: 'tsconfig.json',
+    extraFileExtensions: ['.vue']
   },
   plugins: [
     'vue'
   ],
   rules: {
+    '@typescript-eslint/triple-slash-reference': 'off'
   }
 }

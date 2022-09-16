@@ -14,14 +14,16 @@
     "vue": "^3.2.37"
   },
   "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/eslint-parser": "^7.19.1",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@vitejs/plugin-vue": "^3.1.0",
-    "eslint": "^8.0.1",
+    "eslint": "^8.23.1",
     "eslint-config-standard-with-typescript": "^23.0.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-vue": "^9.4.0",
+    "eslint-plugin-vue": "^9.5.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "typescript": "*",
@@ -29,6 +31,6 @@
     "vue-tsc": "^0.40.4"
   },
   "lint-staged": {
-    "*.{js,jsx,vue,ts,tsx}": "eslint --cache --fix"
+    "*.{js,jsx,vue,ts,tsx}": "yarn lint"
   }
 }
