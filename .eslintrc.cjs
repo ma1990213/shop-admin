@@ -21,6 +21,8 @@ module.exports = {
     'vue'
   ],
   rules: {
-    '@typescript-eslint/triple-slash-reference': 'off'
+    '@typescript-eslint/triple-slash-reference': 'off',
+    'vue/multi-word-component-names': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off'
   }
 }

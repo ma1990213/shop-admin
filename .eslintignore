@@ -1,3 +1,4 @@
 *.cjs
 vite.config.ts
 commitlint.config.js
+src/router

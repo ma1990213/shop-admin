@@ -17,6 +17,7 @@ import Test from './components/Test'
   </div>
   <HelloWorld msg="Vite + Vue" />
   <Test msg="tsx" />
+  <router-view />
 </template>
 
 <style scoped>
